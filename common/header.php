@@ -62,7 +62,7 @@
                     <?php echo nav($navArray)->addPageClassToLi()->setUlClass('vertical medium-horizontal menu medium-5 large-4 large-offset-1 column')->setUlId('right-nav'); ?>
                  
 
-                    <div id="search-container" role="search" class="medium-7 column right align-self-bottom">
+                    <div id="search-container" role="search" class="large-7 medium-6 column right align-self-bottom">
                         <?php if (get_theme_option('use_advanced_search') === null || get_theme_option('use_advanced_search')): ?>
                         <?php echo search_form(array('show_advanced' => true)); ?>
                         <?php else: ?>

@@ -659,6 +659,12 @@ footer {
 .exhibits.show h2 {
     font-size:1.5rem;
 }
+.exhibit-block {
+  overflow: hidden;
+}
+.exhibits.show #exhibit-blocks ol {
+    list-style-position: inside;
+}
 #sidebar-wrap.column {
     padding:0;
 }
@@ -798,11 +804,18 @@ color: red;
 opacity: .85;
 }
 
+.circle-test .inform:hover {
+  background-color: #4E4C4C;
+}
 
 @media screen and (min-width: 64em) {
   .circle-test a {
       font-size:2.6rem;
   }
+}
+
+.exhibits.show #exhibit-blocks .circle-test img {
+    padding-top: 0;
 }
 
 .exhibit-item-caption p {
