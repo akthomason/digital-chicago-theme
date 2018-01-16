@@ -14,7 +14,7 @@
     $titleParts[] = option('site_title');
     ?>
     <title><?php echo implode(' &middot; ', $titleParts); ?></title>
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600|PT+Serif:400,400i,700" rel="stylesheet">
 
     <?php echo auto_discovery_link_tags(); ?>
 

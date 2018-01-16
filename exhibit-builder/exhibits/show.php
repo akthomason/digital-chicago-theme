@@ -11,7 +11,7 @@ echo head(array(
 <?php exhibit_builder_render_exhibit_page(); ?>
 </div>
 
-<div data-sticky-container class="large-3 medium-12 column" id="sidebar-wrap">
+<div data-sticky-container class="large-3 medium-12 column sidebar" id="sidebar-wrap">
 <div data-sticky data-anchor="exhibit-blocks" id="sidebar" class="sticky">
     <div data-margin-top="2">
         <h5>Table of Contents</h5>

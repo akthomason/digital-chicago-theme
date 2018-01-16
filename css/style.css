@@ -1,8 +1,16 @@
 /*GENERIC*/
 body {
-  font: 16px "Muli", sans-serif;
+  font: 16px "PT Serif", serif;
   color: #2a2a2a;
   background: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6, header, footer, .sidebar, .info, .inform {
+    font-family: "Muli", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: inherit;
+    text-rendering: optimizeLegibility;
 }
 
 .left {
@@ -653,11 +661,12 @@ footer {
 .exhibits.show h1 {
     text-align: left;
     font-size:2.1rem;
-    line-height: 1.1;
+    line-height: 1.5;
 }
 
 .exhibits.show h2 {
     font-size:1.5rem;
+    line-height: 1.5;
 }
 .exhibit-block {
   overflow: hidden;
