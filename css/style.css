@@ -817,11 +817,30 @@ opacity: .85;
   background-color: #4E4C4C;
 }
 
-@media screen and (min-width: 64em) {
-  .circle-test a {
+
+@media screen and (max-width: 600px) and (min-width: 10px) {
+       .circle-test a {
+      font-size:0.7rem;
+  }
+}
+@media screen and (max-width: 760px) and (min-width: 600px) {
+       .circle-test a {
+      font-size:1.1rem;
+  }
+}
+ 
+@media screen and (max-width: 1024px) and (min-width: 761px) {
+       .circle-test a {
+      font-size:1.5rem;
+  }
+}
+ 
+@media screen and (max-width: 2000px) and (min-width: 1024px) {
+       .circle-test a {
       font-size:1.8rem;
   }
 }
+
 
 .exhibits.show #exhibit-blocks .circle-test img {
     padding-top: 0;
