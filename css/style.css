@@ -793,7 +793,7 @@ z-index:1
 
 
 .circle-test a {
-font-size:2.1rem;
+font-size:2.3rem;
 font-variant:small-caps;
 font-weight:bold;
 text-align:center;
@@ -820,12 +820,12 @@ opacity: .85;
 
 @media screen and (max-width: 600px) and (min-width: 10px) {
        .circle-test a {
-      font-size:1.4rem;
+      font-size:1.6rem;
   }
 }
 @media screen and (max-width: 760px) and (min-width: 600px) {
        .circle-test a {
-      font-size:1.5rem;
+      font-size:1.3rem;
   }
 }
  
