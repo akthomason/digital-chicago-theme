@@ -5,7 +5,7 @@ body {
   background: #f7f7f7;
 }
 
-h1, h2, h3, h4, h5, h6, header, footer, .sidebar, .info, .inform {
+h1, h2, h3, h4, h5, h6, header, footer, .sidebar, .info, .inform, .hTagcloud, .exhibits .orientation {
     font-family: "Muli", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -670,6 +670,10 @@ footer {
 }
 .exhibit-block {
   overflow: hidden;
+  margin-bottom: 1rem;
+}
+.exhibit-block p:last-child {
+  margin-bottom: 0;
 }
 .exhibits.show #exhibit-blocks ol {
     list-style-position: inside;
