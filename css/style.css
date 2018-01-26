@@ -797,7 +797,7 @@ z-index:1
 
 
 .circle-test a {
-font-size:2.4rem;
+font-size:2.2rem;
 font-variant:small-caps;
 font-weight:bold;
 text-align:center;
@@ -821,11 +821,34 @@ opacity: .85;
   background-color: #4E4C4C;
 }
 
-@media screen and (min-width: 64em) {
-  .circle-test a {
-      font-size:2.6rem;
+
+@media screen and (max-width: 600px) and (min-width: 10px) {
+       .circle-test a {
+      font-size:1.6rem;
   }
 }
+
+
+@media screen and (max-width: 703px) and (min-width: 600px) {
+     
+  .circle-test a {
+      font-size:1.7rem;
+  }
+    
+}
+ 
+@media screen and (max-width: 1024px) and (min-width: 703px) {
+       .circle-test a {
+      font-size:1.8rem;
+  }
+}
+ 
+@media screen and (max-width: 2000px) and (min-width: 1024px) {
+       .circle-test a {
+      font-size:2.0rem;
+  }
+}
+
 
 .exhibits.show #exhibit-blocks .circle-test img {
     padding-top: 0;
@@ -950,6 +973,68 @@ opacity: .85;
 
 .items.show .element {
   margin-bottom:1rem;
+}
+.dropbtn {
+background-color:#C31330;
+color:#fff;
+padding:16px;
+font-size:16px;
+border:none
+}
+
+.dropdown {
+position:relative;
+display:inline-block
+}
+
+.dropdown-content {
+display:none;
+position:absolute;
+background-color:#f9f9f9;
+z-index:1
+}
+
+.dropdown-content a {
+color:#C31330;
+padding:12px 16px;
+text-decoration:none;
+display:block
+}
+
+.descdrop {
+padding:15px;
+text-align:center
+}
+
+.dropdown-content a:hover {
+background-color:#f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+display:block
+}
+
+.dropdown:hover .dropbtn {
+background-color:#DCC67A
+}
+
+.hover_img p {
+position:relative;
+background-color:#C31330;
+color:#fff;
+padding:16px;
+font-size:16px;
+border:none
+}
+
+.hover_img p span {
+position:absolute;
+display:none;
+z-index:99
+}
+
+.hover_img p:hover span {
+display:block
 }
 
 /*.items.show #itemfiles #item-images > div {
