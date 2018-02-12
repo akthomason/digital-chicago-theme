@@ -667,6 +667,7 @@ footer {
 .exhibits.show h2 {
     font-size:1.5rem;
     line-height: 1.5;
+    margin-bottom: 1rem;
 }
 .exhibit-block {
   overflow: hidden;
@@ -678,6 +679,13 @@ footer {
 .exhibits.show #exhibit-blocks ol {
     list-style-position: inside;
 }
+
+.layout-file-text .exhibit-items.left {
+  margin-right:3%;
+}
+.layout-file-text .exhibit-items.right {
+  margin-left:3%;
+}
 #sidebar-wrap.column {
     padding:0;
 }
@@ -685,6 +693,8 @@ footer {
     background: #e6e6e6;
     padding: .9375rem;
     border-top: .25rem solid #C31330;
+    margin-left:5px;
+    width:100%;
 }
 #sidebar h5 {
     border-bottom: 1px solid #AAA3A2;
@@ -961,6 +971,10 @@ opacity: .85;
 /*items show*/
 .items.show #dublin-core-title {
   display:none;
+}
+
+.item-file {
+  margin-top:1rem;
 }
 
 .element-set {
