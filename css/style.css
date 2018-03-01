@@ -815,7 +815,7 @@ z-index:1
 
 
 .circle-test a {
-font-size:2.2rem;
+font-size:1.5rem;
 font-variant:small-caps;
 font-weight:bold;
 text-align:center;
@@ -839,7 +839,21 @@ opacity: .85;
   background-color: #4E4C4C;
 }
 
+@media screen and (min-width: 64em) {
+  .circle-test a {
+      font-size:1.5rem;
+      line-height: 2rem;
+  }
+}
 
+@media screen and (min-width: 76.5em) {
+  .circle-test a {
+      font-size:2rem;
+      line-height: 2.25rem;
+  }
+}
+
+/*
 @media screen and (max-width: 600px) and (min-width: 10px) {
        .circle-test a {
       font-size:1.6rem;
@@ -865,7 +879,7 @@ opacity: .85;
        .circle-test a {
       font-size:2.1rem;
   }
-}
+}*/
 
 
 .exhibits.show #exhibit-blocks .circle-test img {
