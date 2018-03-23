@@ -1003,11 +1003,11 @@ opacity: .85;
   margin-top:1rem;
 }
 
-.items.show h3 {
+.items.show h3, .exhibits.show .element-set h3 {
   margin:0;
 }
 
-.items.show .element {
+.items.show .element, .exhibits.show .element {
   margin-bottom:1rem;
 }
 .dropbtn {
