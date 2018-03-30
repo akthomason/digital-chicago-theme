@@ -33,10 +33,10 @@ echo head(array('title' => $title, 'bodyclass' => 'items show'));
 <?php endif;?>
 
 <!-- The following prints a citation for this item. -->
-<div id="item-citation" class="element">
-    <h3><?php echo __('How to cite this item:'); ?></h3>
-    <div class="element-text"><?php echo metadata('item', 'citation', array('no_escape' => true)); ?></div>
-</div>
+<!-- <div id="item-citation" class="element"> -->
+    <!-- <h3><?php echo __('How to cite this item:'); ?></h3> -->
+    <!-- <div class="element-text"><?php echo metadata('item', 'citation', array('no_escape' => true)); ?></div>
+</div> -->
 
 <div id="item-output-formats" class="element">
     <h3><?php echo __('Output Formats'); ?></h3>
